@@ -78,5 +78,3 @@ opencv-python
 ## AI Tool Disclosure
 Claude (Anthropic) was used for report formatting and literature 
 organization. All code was written and debugged independently.
-```
-

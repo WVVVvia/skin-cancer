@@ -1,3 +1,4 @@
+# Skin Cancer Detection with Deep Learning
 **ECE 284: Digital Health Technologies — UCSD, Spring 2026**  
 Yixian Wang | PID: A69044452
 
@@ -18,12 +19,14 @@ and macro-AUC 0.977 across 7 lesion classes.
 No IRB required.
 
 ## Repository Structure
+```
 ece284-skin-cancer/
 ├── eda.ipynb                  # Exploratory data analysis & class distribution
 ├── inceptionv3.ipynb          # InceptionV3 training, AUC, Grad-CAM, health equity
 ├── resnet50.ipynb             # ResNet50 training, AUC, Grad-CAM
 ├── efficientnet.ipynb         # EfficientNet-B0 training, AUC, Grad-CAM
 └── README.md
+```
 
 ## Methods
 - **Transfer learning** from ImageNet pretrained weights
@@ -47,6 +50,7 @@ ece284-skin-cancer/
 - Model performance decreases with patient age (AUC gap: 0.989 vs 0.960 for <40 vs >60)
 
 ## Requirements
+```
 torch >= 2.0
 torchvision
 scikit-learn
@@ -55,6 +59,7 @@ pandas
 numpy
 Pillow
 opencv-python
+```
 
 ## How to Run
 1. Download HAM10000 from Kaggle and add to your Kaggle input
@@ -73,3 +78,5 @@ opencv-python
 ## AI Tool Disclosure
 Claude (Anthropic) was used for report formatting and literature 
 organization. All code was written and debugged independently.
+```
+

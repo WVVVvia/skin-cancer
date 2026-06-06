@@ -76,5 +76,4 @@ opencv-python
 - Selvaraju et al. "Grad-CAM." ICCV (2017)
 
 ## AI Tool Disclosure
-Claude (Anthropic) was used for report formatting and literature 
-organization. All code was written and debugged independently.
+Claude (Anthropic) was used for report formatting and debugging. All code was written independently.
